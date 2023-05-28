@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #013914;
+  background-color: teal ;//#013914;
   color: white;
   position: sticky;
   top: 0;
@@ -10,13 +10,21 @@
   transition: 0.5s all ease;
 
   &.active {
-    background-color: white;
-    color: black;
+    background-color: #12151b;//#ca7f41;
+    color: #ffffff;
 
     button {
-      background-color: white !important;
-      color: #1dbf73 !important;
-      border: 1px solid #1dbf73 !important;
+      background-color: transparent !important;
+      color: teal !important;
+      border: 1px solid teal !important;
+    }
+    .text {
+      color: #000000; //#1044f0;
+    }
+
+    .dot {
+      font-weight: bold;
+      color:  #000000; // #fca90e;
     }
   }
 
@@ -32,11 +40,12 @@
       font-weight: bold;
 
       .text {
+        color: #ffffff; //#1044f0;
       }
 
       .dot {
         font-weight: bold;
-        color: #1dbf73;
+        color:  #ffffff; // #fca90e;
       }
     }
     .links {
@@ -91,8 +100,8 @@
         cursor: pointer;
 
         &:hover {
-          background-color: #1dbf73;
-          border-color: #1dbf73;
+          background-color: #1044f0;
+          border-color: #1044f0;
         }
       }
     }

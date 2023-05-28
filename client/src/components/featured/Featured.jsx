@@ -14,14 +14,14 @@ function Featured() {
       <div className="container">
         <div className="left">
           <h1>
-            Find the perfect <span>freelance</span> services for your business
+            Find the perfect services for your business at <span>Phoenix</span>
           </h1>
           <div className="search">
             <div className="searchInput">
               <img src="./img/search.png" alt="" />
               <input
                 type="text"
-                placeholder='Try "building mobil app"'
+                placeholder='Try "web development"'
                 onChange={(e) => setInput(e.target.value)}
               />
             </div>
